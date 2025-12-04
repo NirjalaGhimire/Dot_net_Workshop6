@@ -8,7 +8,7 @@
 
             Program program = new Program();
 
-            int[] numbers = { 24, 32, 13, 4, 45, 16, 7, 18, 99, 10 };
+            int[] numbers = { 20, 22 , 13 ,5 , 78,99 , 10 , 45 };
 
             Func<int, bool> isEven = num => num % 2 == 0;
             Console.WriteLine("Even numbers:");
