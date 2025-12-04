@@ -1,0 +1,15 @@
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\bin\Debug\net9.0\Task2.exe
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\bin\Debug\net9.0\Task2.deps.json
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\bin\Debug\net9.0\Task2.runtimeconfig.json
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\bin\Debug\net9.0\Task2.dll
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\bin\Debug\net9.0\Task2.pdb
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\Task2.AssemblyInfoInputs.cache
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\Task2.AssemblyInfo.cs
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\Task2.csproj.CoreCompileInputs.cache
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\Task2.sourcelink.json
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\Task2.dll
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\refint\Task2.dll
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\Task2.pdb
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\Task2.genruntimeconfig.cache
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task2\obj\Debug\net9.0\ref\Task2.dll
