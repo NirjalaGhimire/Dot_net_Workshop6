@@ -7,10 +7,10 @@
             // created delegated object and assign method
             Calculate calculate;
             calculate = Add;
-            Console.WriteLine(calculate(5, 8));
+            Console.WriteLine(calculate(15, 2));
 
             calculate = Subtract;
-            Console.WriteLine(calculate(10, 4));
+            Console.WriteLine(calculate(17, 3));
 
 
             Console.WriteLine(CalculateFinalPrice(1000, FestivalDiscount));
