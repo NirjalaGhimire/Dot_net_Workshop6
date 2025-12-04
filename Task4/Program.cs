@@ -1,74 +1,64 @@
-﻿using Microsoft.VisualBasic;
-using Task4;
+﻿using Task_4;
 
-namespace Task_4
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        Console.WriteLine("=== Task 1: Selection / Projection ===");
+
+        // 1. Selection / Projection
+        List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+
+        var squaredNumbers = numbers.Select(n => n * n);
+
+        Console.WriteLine("Squared Numbers: " + string.Join(", ", squaredNumbers));
+
+
+
+        Console.WriteLine("\n=== Task 2: Filtering (Where) ===");
+
+        // 2. Filtering: Books priced above Rs. 1000
+        List<Book> books = new List<Book>
         {
-            Console.WriteLine("Hello, World!");
+            new Book("C# Programming", 850),
+            new Book("Artificial Intelligence", 1450),
+            new Book("Cloud Computing", 2200),
+            new Book("Data Structures", 999)
+        };
 
-            // Selectio and projection using LINQ
+        var premiumBooks = books.Where(b => b.Price > 1000);
 
-            List<int> number = [1, 2, 3, 4, 5];
-
-            var squaredNumber = from n in number
-                                select n * n;
-
-            Console.WriteLine(string.Join(",", squaredNumber));
-
-
-            // Filtering using LINQ
-            Book book1 = new Book("C#", 999.99);
-            Book book2 = new Book("Java", 1239.99);
-            Book book3 = new Book("Python", 2225.50);
-            List<Book> bookList = [book1, book2, book3];
-
-            var premiumBooks = from book in bookList
-                               where book.price > 1000
-                               select book;
-
-            Console.WriteLine(string.Join(',', premiumBooks));
-
-            // Sorting using LINQ
-
-            Student student1 = new Student("elice", "L3C2");
-            Student student2 = new Student("dob", "L3C9");
-            Student student3 = new Student("Charlie", "L3C7");
-            Student student4 = new Student("David", "L3C6");
-            Student student5 = new Student("Eve", "L3C8");
-            Student student6 = new Student("Zrank", "L3C8");
-            Student student7 = new Student("Trace", "L3C10");
-            Student student8 = new Student("Beidi", "L3C11");
-            Student student9 = new Student("Aven", "L3C9");
-            Student student10 = new Student("asudy", "L3C5");
-
-            List<Student> studentList = [student1, student2, student3, student4, student5,
-                                         student6, student7, student8, student9, student10];
-
-            var sortedStudentsWithOrderBy = from student in studentList
-                                            orderby student.studentName
-                                            select student;
-            Console.WriteLine("\nSorted Students by Name (Ascending) i.e. using orderby:");
-
-            foreach (var student in sortedStudentsWithOrderBy)
-            {
-                Console.WriteLine($"Name: {student.studentName}, Section: {student.section}");
-            }
+        Console.WriteLine("Premium Books (Price > 1000):");
+        foreach (var b in premiumBooks)
+        {
+            Console.WriteLine($"{b.Name} - Rs. {b.Price}");
+        }
 
 
 
-            var sortedStudentsWithOrderByDesc = from student in studentList
-                                                orderby student.studentName descending
-                                                select student;
-            Console.WriteLine("\nSorted Students by Name (Descending) i.e. using orderby ... descending:");
+        Console.WriteLine("\n=== Task 3: Sorting (OrderBy / OrderByDescending) ===");
 
-            foreach (var student in sortedStudentsWithOrderByDesc)
-            {
-                Console.WriteLine($"Name: {student.studentName}, Section: {student.section}");
+        // 3. Sorting: Student names alphabetically
+        List<Student> students = new List<Student>
+        {
+            new Student("Rita"),
+            new Student("Aman"),
+            new Student("Suresh"),
+            new Student("Bikash"),
+            new Student("Anjali"),
+            new Student("Kiran"),
+            new Student("Zara"),
+            new Student("Laxmi"),
+            new Student("Manav"),
+            new Student("Rojina")
+        };
 
-            }
+        var sortedStudents = students.OrderBy(s => s.Name);
+
+        Console.WriteLine("Sorted Students (Alphabetical Order):");
+        foreach (var s in sortedStudents)
+        {
+            Console.WriteLine(s.Name);
         }
     }
 }

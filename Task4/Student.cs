@@ -7,15 +7,12 @@ using System.Threading.Tasks;
 
 namespace Task_4
 {
-    internal class Student
+    class Student
     {
-        public string studentName;
-        public string section;
-
-        public Student(string studentName, string section)
+        public string Name { get; set; }
+        public Student(string name)
         {
-            this.studentName = studentName;
-            this.section = section;
+            Name = name;
         }
     }
 }

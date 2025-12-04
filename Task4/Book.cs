@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace Task_4
 {
-    internal class Book
+    class Book
     {
-        public string name;
-        public double price;
+        public string Name { get; set; }
+        public double Price { get; set; }
 
         public Book(string name, double price)
         {
-            this.name = name;
-            this.price = price;
+            Name = name;
+            Price = price;
         }
-
-
     }
 }

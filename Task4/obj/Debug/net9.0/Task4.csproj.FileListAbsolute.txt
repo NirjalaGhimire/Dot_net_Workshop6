@@ -1,0 +1,15 @@
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\Task4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\Task4.AssemblyInfoInputs.cache
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\Task4.AssemblyInfo.cs
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\Task4.csproj.CoreCompileInputs.cache
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\Task4.sourcelink.json
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\bin\Debug\net9.0\Task4.exe
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\bin\Debug\net9.0\Task4.deps.json
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\bin\Debug\net9.0\Task4.runtimeconfig.json
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\bin\Debug\net9.0\Task4.dll
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\bin\Debug\net9.0\Task4.pdb
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\Task4.dll
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\refint\Task4.dll
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\Task4.pdb
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\Task4.genruntimeconfig.cache
+C:\Week6 _ Dot_Net\Dot_Net_Workshop6\Task4\obj\Debug\net9.0\ref\Task4.dll
